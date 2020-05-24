@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Error Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="keywords" content="Error" />
+
+<style type="text/css">
+body,p,h2{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+.clear{clear:both;}/* clear float */
+
+img{max-width:100%;border: none;}
+
+body {
+   background:#f2f2f2;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 100%;
+}
+.not-found {
+    width: 1200px;
+    // padding: 7em 3em 7em 3em;
+    height: 348px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -174px;
+    margin-left: -600px;
+}
+.notfound-left {
+  float: left;
+  width: 534px;
+  padding:8px 0 0 66px;
+}
+.notfound-left img{
+  width:467px;
+  height: 331px;
+}
+.content {
+  float: right;
+  width:600px;
+}
+.content h2 {
+  font-size: 26px;
+  font-weight: 500;
+  color:#000;
+  margin: 30px 0 30px 0;
+}
+.content p{
+  font-size: 16px;
+  color:#656262;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.content img{
+  width: 132px;
+  height: 40px;
+}
+.copyright {
+  padding: 120px 0 0 0;
+  text-align: center;
+}
+.copyright p {
+  font-size: 14px;
+  color: #656262;
+  line-height: 30px;
+}
+.copyright p a{
+  color: #656262;
+  text-decoration: none;
+}
+.copyright p a:hover{
+    color:#dc4a3b;
+    transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+</style>
+</head>
+<body>
+
+<div class="not-found">
+<div class="notfound-left">
+<img src="http://yjsstatic.baidu.com/M00/00/25/CnInK1jtjwqAJnJ-AAAqaj3wAdo411.png" alt="哎呀，出错啦！">
+</div>
+<div class="content">
+<h2>非常抱歉，您请求的页面当前无法访问</h2>
+<p>这可能是因为：<br>
+1. 网站内容涉嫌违反国家相关规定<br>
+2. 输入的地址不正确，或页面已被删除<br>
+3. 服务到期或资源超限，请联系站长处理 </p>
+<p>根据国家相关规定，不允许为违规或未备案网站提供服务。<br>
+如果您有其他疑问，请联系站长或查看<a data-orig-proto="https" data-orig-ref="su.baidu.com" target="_blank" href="https://su.baidu.com/agency/api.html#/10_changjianwenti/0_HIDE_FAQ/19_naxiewangzhanbunengshiyongyunjiasu.md">帮助中心</a>。
+</div>
+<div class="clear"> </div>
+<div class="copyright">
+<p>©2016 Baidu <a href="https://www.baidu.com/duty/" target="_blank"> 使用百度前必读 </a>京ICP证030173号</p>
+</div>
+</div>
+</body>
+</html>

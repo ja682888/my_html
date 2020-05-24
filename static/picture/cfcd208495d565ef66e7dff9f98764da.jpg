@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404页面</title>
+<meta name="keywords" content="[!--pagekey--]" />
+<meta name="description" content="[!--pagedes--]" />
+<link rel="stylesheet" type="text/css" href="/skin/default/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/skin/default/css/nprogress.css">
+<link rel="stylesheet" type="text/css" href="/skin/default/css/style.css">
+<link rel="stylesheet" type="text/css" href="/skin/default/css/font-awesome.min.css">
+<link rel="apple-touch-icon-precomposed" href="images/icon.png">
+<link rel="shortcut icon" href="images/favicon.ico">
+<script src="/skin/default/js/jquery-2.1.4.min.js"></script>
+<script src="/skin/default/js/nprogress.js"></script>
+<script src="/skin/default/js/jquery.lazyload.min.js"></script>
+<!--[if gte IE 9]>
+  <script src="/skin/default/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <script src="/skin/default/js/html5shiv.min.js" type="text/javascript"></script>
+  <script src="/skin/default/js/respond.min.js" type="text/javascript"></script>
+  <script src="/skin/default/js/selectivizr-min.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+  <script>window.location.href='upgrade-browser.html';</script>
+<![endif]-->
+<style type="text/css">
+
+.wraps{
+	margin:0 auto;
+	width:100%;
+}
+.logos{
+	text-align:center;
+	margin:100px auto;
+}
+.logos img{
+	width:350px;
+}
+.logos p{
+	color:#272727;
+	font-size:40px;
+	margin-top:1px;
+}	
+.logos p span{
+	color:lightgreen;
+}	
+.sub a{
+	color:#fff;
+	background:#272727;
+	text-decoration:none;
+	padding:10px 20px;
+	font-size:13px;
+	font-family: arial, serif;
+	font-weight:bold;
+	-webkit-border-radius:.5em;
+	-moz-border-radius:.5em;
+	-border-radius:.5em;
+}	
+
+</style>
+</head>
+<body class="user-select">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1c60290a51532dab43fde2c2219633e9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+
+
+<header class="header">
+<nav class="navbar navbar-default" id="navbar"  role="navigation"> 
+<div class="container">
+ <div class="header-topbar hidden-xs link-border">
+	<ul class="site-nav topmenu">	  
+	  <li><a href="/author/" onclick="_hmt.push(['_trackEvent', 'nav_top', 'click', '搜索微信公众号')">搜索微信公众号</a></li>
+          <li><a href="/news/"  onclick="_hmt.push(['_trackEvent', 'nav_top', 'click', '最新微信头条文章')">最新微信头条文章</a></li>
+          <li><a href="/sem.html"  onclick="_hmt.push(['_trackEvent', 'nav_top', 'click', '微信付费推广')">微信付费推广</a></li>
+          <!--<li><a href="#" >标签云</a></li>
+	  <li><a href="https://www.weixin-toutiao.com/e/web/" title="RSS订阅" ><i class="fa fa-rss"></i>RSS订阅</a></li>-->
+	</ul>
+	勤记录 懂分享，收录电脑微信公众号文章，订阅号素材，可搜索2019年10月起的账户和微信文章。</div>  <div class="navbar-header">
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar" aria-expanded="false"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+	<h1 class="logo hvr-bounce-in"><a href="https://www.weixin-toutiao.com/" title="微信头条 | 电脑搜索微信公众号文章大全-微信公众号推广"  onclick="_czc.push(['_trackEvent', '导航栏', '顶部导航', 'logo','5','dafen']);"><img src="/skin/default/images/logo.png" alt="微信头条 | 电脑搜索微信公众号文章大全-微信公众号推广"></a></h1>
+  </div>
+  <div class="collapse navbar-collapse" id="header-navbar">  
+	<form class="navbar-form visible-xs" action="https://www.weixin-toutiao.com/e/search/" name="search_news" id="search_news" method="post">
+    <input type="hidden" name="show" value="title">
+	  <div class="input-group">
+		<input type="text"  name="keyboard" id="keyboard" class="form-control" placeholder="请输入关键字" maxlength="30" autocomplete="off">
+		<span class="input-group-btn">
+		<button class="btn btn-default btn-search" name="search" type="submit">搜索</button>
+		</span> </div>
+	</form>
+	<ul class="nav navbar-nav navbar-right">
+	  <li><a data-cont="微信头条 | 电脑搜索微信公众号文章大全-微信公众号推广" title="微信头条 | 电脑搜索微信公众号文章大全-微信公众号推广" href="https://www.weixin-toutiao.com/">首页</a></li>
+              	<li class="dropdown"><a data-cont="热门" title="热门" href="https://www.weixin-toutiao.com/hot/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '热门', '6']);">热门</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="搞笑" title="搞笑" href="https://www.weixin-toutiao.com/sjys/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '搞笑', '9']);">搞笑</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="养生堂" title="养生堂" href="https://www.weixin-toutiao.com/yst/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '养生堂', '1']);">养生堂</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="私房话" title="私房话" href="https://www.weixin-toutiao.com/sfh/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '私房话', '4']);">私房话</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="八卦精" title="八卦精" href="https://www.weixin-toutiao.com/bgj/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '八卦精', '3']);">八卦精</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="科技咖" title="科技咖" href="https://www.weixin-toutiao.com/kjk/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '科技咖', '2']);">科技咖</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="生活家" title="生活家" href="https://www.weixin-toutiao.com/shj/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '生活家', '12']);">生活家</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="财经迷" title="财经迷" href="https://www.weixin-toutiao.com/cjm/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '财经迷', '5']);">财经迷</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="汽车控" title="汽车控" href="https://www.weixin-toutiao.com/qck/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '汽车控', '7']);">汽车控</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="时尚圈" title="时尚圈" href="https://www.weixin-toutiao.com/ssq/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '时尚圈', '13']);">时尚圈</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="育儿" title="育儿" href="https://www.weixin-toutiao.com/yer/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '育儿', '14']);">育儿</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="旅游" title="旅游" href="https://www.weixin-toutiao.com/ly/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '旅游', '15']);">旅游</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="职场" title="职场" href="https://www.weixin-toutiao.com/zc/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '职场', '16']);">职场</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="美食" title="美食" href="https://www.weixin-toutiao.com/ms/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '美食', '17']);">美食</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="历史" title="历史" href="https://www.weixin-toutiao.com/ls/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '历史', '18']);">历史</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="教育" title="教育" href="https://www.weixin-toutiao.com/jy/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '教育', '19']);">教育</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="体育" title="体育" href="https://www.weixin-toutiao.com/ty/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '体育', '21']);">体育</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="星座" title="星座" href="https://www.weixin-toutiao.com/xz/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '星座', '20']);">星座</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="军事" title="军事" href="https://www.weixin-toutiao.com/js/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '军事', '22']);">军事</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="游戏" title="游戏" href="https://www.weixin-toutiao.com/yx/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '游戏', '23']);">游戏</a>		
+	</li>
+                	<li class="dropdown"><a data-cont="萌宠" title="萌宠" href="https://www.weixin-toutiao.com/mc/" class="dropdown-toggle"  onclick="_hmt.push(['_trackEvent', 'nav', 'click', '萌宠', '24']);">萌宠</a>		
+	</li>
+        	</ul>
+  </div>
+</div>
+</nav>
+</header>
+<style>
+@media (max-width: 980px){
+	.nav>li {
+	    width: 25%;
+	    float: left;
+	}	
+}
+</style>
+<section class="container">
+<div class="wraps">
+	<div class="logos">
+			<p>页面不存在</p>
+			<img src="/images/404-1.png"/>
+			<div class="sub">
+			  <p><a href="/">返回微信头条网首页 </a></p>
+			</div>
+	</div>
+ </div>	
+</section>
+<footer class="footer">
+<div class="container">
+<p>Copyright &copy; 2016~2020. All rights reserved.<a target="_blank" href="#">微信头条 | 电脑搜索微信公众号文章大全-微信公众号推广</a> <a href="http://www.beian.miit.gov.cn" target="_blank" rel="nofollow">粤ICP备12061394号-3</a> </p>
+</div>
+<div id="gotop"><a class="gotop"></a></div>
+</footer>
+<ul class="hidden-sm hidden-md hidden-lg bottom-nav">
+<li><a href="/hot/">时事新闻</a></li>
+<li><a href="/news/">最新头条</a></li>
+<li><a href="/author/">搜索公众号</a></li>
+<li><a href="/author/wxttb/">微信简报</a></li></ul>
+<script src="/skin/default/js/bootstrap.min.js"></script>
+<script src="/skin/default/js/jquery.ias.js"></script>
+<script src="/skin/default/js/scripts.js"></script>
+<script src="/e/extend/DoTimeRepage/"></script>
+</body>
+</html>
